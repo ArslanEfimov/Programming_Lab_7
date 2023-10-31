@@ -16,7 +16,7 @@ public class DBConnection {
 //        String url = credetials[0];
 //        String user = credetials[1];
 //        String password = credetials[2];
-        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/studs","s368162", "qXqc9g8kalBfMV5P");
+        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/studs","your username", "your password");
 
     }
 }
